@@ -1,9 +1,13 @@
 import { Link } from 'react-router-dom';
+import NavLinks from './NavLinks';
 
 export default function Header() {
 	return (
 		<header>
-			<nav>@akutnino</nav>
+			<nav>
+				@akutnino
+				<NavLinks />
+			</nav>
 			<h1>
 				Nice to meet you! I&apos;m <span>Niño Akut</span>.
 			</h1>
