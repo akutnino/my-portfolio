@@ -15,11 +15,11 @@ export default function Header() {
 				Based in the Philippines, I&apos;m a ReactJS Web Developer that&apos;s passionate
 				about building web apps that users love.
 			</p>
-			<Link to={'/resume'}>Check My Resume</Link>
 			<img
 				src='/src/assets/images/IMG_20240723_013808.jpg'
 				alt='my-photo'
 			/>
+			<Link to={'/resume'}>Check My Resume</Link>
 		</header>
 	);
 }

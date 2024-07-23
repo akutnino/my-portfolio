@@ -6,6 +6,10 @@ $main-bg-color: #151515;
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
 	background-color: $main-bg-color;
 }
