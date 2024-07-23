@@ -1,6 +1,8 @@
+import styles from '../styles/NavLinks.module.scss';
+
 export default function NavLinks() {
 	return (
-		<ul>
+		<ul className={styles.linkList}>
 			<li>
 				<a
 					href='https://github.com/akutnino'

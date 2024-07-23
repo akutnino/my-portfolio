@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
-import NavLinks from './NavLinks';
 import styles from '../styles/Header.module.scss';
+
+import NavLinks from './NavLinks';
 
 export default function Header() {
 	return (
 		<header className={styles.header}>
 			<nav>
-				@akutnino
+				<h1>@akutnino</h1>
 				<NavLinks />
 			</nav>
 			<div>

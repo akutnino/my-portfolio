@@ -1,0 +1,19 @@
+.linkList {
+	display: flex;
+	gap: 20px;
+
+	list-style: none;
+	width: min-content;
+
+	li {
+		align-self: center;
+
+		a {
+			display: block;
+
+			img {
+				display: block;
+			}
+		}
+	}
+}
