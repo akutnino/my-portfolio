@@ -15,6 +15,7 @@ export default function NavLinks() {
 					/>
 				</a>
 			</li>
+
 			<li>
 				<a
 					href='https://www.frontendmentor.io/profile/akutnino'
@@ -27,6 +28,7 @@ export default function NavLinks() {
 					/>
 				</a>
 			</li>
+
 			<li>
 				<a
 					href='https://ph.linkedin.com/in/nino-akut'
@@ -39,6 +41,7 @@ export default function NavLinks() {
 					/>
 				</a>
 			</li>
+
 			<li>
 				<a
 					href='https://x.com/akutnino?lang=en'
