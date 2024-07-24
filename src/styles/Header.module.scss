@@ -51,30 +51,14 @@ $third-bg-color: #4ee1a0;
 
 	p {
 		grid-area: mainIntro;
-
 		font-family: secondaryFont;
 		color: $font-color-2;
 		font-size: 1.8rem;
-
 		max-width: 40ch;
 	}
 
 	.resumeNav {
 		grid-area: resume;
-
-		.resume {
-			align-self: flex-start;
-			font-family: secondaryFont;
-			color: $font-color-2;
-			font-size: 2.4rem;
-			text-decoration: none;
-			padding-bottom: 0.3rem;
-			border-bottom: 4px solid $third-bg-color;
-		}
-
-		.resume:hover {
-			color: $third-bg-color;
-		}
 	}
 
 	img {
