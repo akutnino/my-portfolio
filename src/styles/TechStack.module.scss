@@ -1,0 +1,34 @@
+$font-color-1: #fff;
+$font-color-2: #d9d9d9;
+
+@font-face {
+	font-family: mainFont;
+	src: url(../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: secondaryFont;
+	src: url(../assets/fonts/static/SpaceGrotesk-Medium.ttf);
+}
+
+.techStackSection {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4rem;
+	padding-top: 8rem;
+	border-top: 2px solid $font-color-2;
+	margin-bottom: 10rem;
+
+	div {
+		h1 {
+			font-family: mainFont;
+			color: $font-color-1;
+			font-size: 5rem;
+		}
+		p {
+			font-family: secondaryFont;
+			color: $font-color-2;
+			font-size: 2rem;
+		}
+	}
+}
