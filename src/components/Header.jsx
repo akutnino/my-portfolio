@@ -14,7 +14,7 @@ export default function Header() {
 				Nice to meet you! I&apos;m <span>Niño Akut</span>.
 			</h1>
 			<p>
-				Based in the Philippines, I&apos;m a ReactJS Web Developer that&apos;s passionate
+				Based in the Philippines, I&apos;m a React Web Developer that&apos;s passionate
 				about building web apps that users love.
 			</p>
 			<img
