@@ -4,11 +4,12 @@ import styles from '../styles/ProjectItem.module.scss';
 ProjectItem.propTypes = {
 	projectName: PropTypes.string,
 	projectImagePath: PropTypes.string,
-	children: PropTypes.node
+	projectTools: PropTypes.node,
+	projectDescription: PropTypes.string
 };
 
 export default function ProjectItem(props) {
-	const { projectName, projectImagePath, children } = props;
+	const { projectName, projectImagePath, projectTools, projectDescription } = props;
 
 	return (
 		<>
@@ -22,26 +23,33 @@ export default function ProjectItem(props) {
 				<h1>
 					<span>{projectName}</span>
 				</h1>
+
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>JavaScript</li>
-					{children}
+					{projectTools}
 				</ul>
-				<a
-					href='http://'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					View Project Demo
-				</a>
-				<a
-					href='http://'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					View Source Code
-				</a>
+
+				<p>{projectDescription}</p>
+
+				<div className={styles.linkDiv}>
+					<a
+						href='http://'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						View Project Demo
+					</a>
+
+					<a
+						href='http://'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						View Source Code
+					</a>
+				</div>
 			</div>
 		</>
 	);

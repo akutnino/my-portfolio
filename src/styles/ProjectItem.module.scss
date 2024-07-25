@@ -1,3 +1,4 @@
+$font-color-1: #fff;
 $font-color-2: #d9d9d9;
 $third-bg-color: #4ee1a0;
 
@@ -12,6 +13,9 @@ $third-bg-color: #4ee1a0;
 }
 
 .projectDetails {
+	display: flex;
+	flex-flow: column;
+
 	h1 {
 		font-family: secondaryFont;
 		font-size: 4.6rem;
@@ -29,11 +33,33 @@ $third-bg-color: #4ee1a0;
 
 		li {
 			font-family: secondaryFont;
-			font-size: 2rem;
+			font-size: 2.4rem;
 			color: $font-color-2;
 		}
 	}
 
-	a {
+	p {
+		font-family: secondaryFont;
+		font-size: 2rem;
+		margin: 6rem 0;
+		color: $font-color-2;
+	}
+
+	.linkDiv {
+		display: flex;
+		justify-content: space-between;
+		flex-grow: 1;
+
+		a {
+			font-family: secondaryFont;
+			font-size: 2.4rem;
+			color: $third-bg-color;
+			align-self: end;
+			text-decoration: none;
+
+			&:hover {
+				border-bottom: 3px solid $third-bg-color;
+			}
+		}
 	}
 }
