@@ -1,0 +1,15 @@
+@font-face {
+	font-family: mainFont;
+	src: url(../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+.projectSection {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 4rem;
+
+	.sectionName {
+		font-family: mainFont;
+		font-size: 8.8rem;
+	}
+}

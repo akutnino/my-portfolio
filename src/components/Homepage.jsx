@@ -1,5 +1,6 @@
 import styles from './../styles/Homepage.module.scss';
 import Header from './Header';
+import Project from './Projects';
 import TechStack from './TechStack';
 
 export default function Homepage() {
@@ -8,7 +9,7 @@ export default function Homepage() {
 			<div className={styles.container}>
 				<Header />
 				<TechStack />
-				<section></section>
+				<Project />
 				<footer></footer>
 			</div>
 		</div>
