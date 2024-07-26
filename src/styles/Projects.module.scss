@@ -17,3 +17,19 @@
 		justify-content: end;
 	}
 }
+
+@media (max-width: rem(970)) {
+	.projectSection {
+		display: flex;
+		flex-direction: column;
+
+		.sectionName {
+			align-self: center;
+			font-size: rem(70);
+		}
+
+		.resumeNav {
+			align-self: center;
+		}
+	}
+}

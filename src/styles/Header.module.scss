@@ -48,3 +48,58 @@
 		max-height: rem(720);
 	}
 }
+
+@media (max-width: rem(1025)) {
+	.header {
+		h1 {
+			grid-column: 1/2;
+		}
+	}
+}
+
+@media (max-width: rem(985)) {
+	.header {
+		grid-template-areas:
+			'navbar'
+			'image'
+			'mainContent'
+			'mainIntro'
+			'resume';
+		gap: rem(40);
+
+		h1 {
+			grid-area: mainContent;
+			justify-self: center;
+			text-align: center;
+		}
+
+		p {
+			grid-area: mainIntro;
+			justify-self: center;
+			text-align: center;
+		}
+
+		.resumeNav {
+			grid-area: resume;
+			justify-self: center;
+		}
+
+		img {
+			grid-area: image;
+			justify-self: center;
+		}
+	}
+}
+
+@media (max-width: rem(450)) {
+	.header {
+		h1 {
+			font-size: rem(70);
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}

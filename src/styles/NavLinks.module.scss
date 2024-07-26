@@ -19,3 +19,10 @@
 		}
 	}
 }
+
+@media (max-width: rem(530)) {
+	.linkList {
+		margin-right: rem(0);
+		width: auto;
+	}
+}

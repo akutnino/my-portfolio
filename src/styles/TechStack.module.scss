@@ -21,3 +21,29 @@
 		}
 	}
 }
+
+@media (max-width: rem(1065)) {
+	.techStackSection {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+
+		div {
+			justify-self: center;
+
+			h1 {
+				text-align: center;
+			}
+
+			p {
+				text-align: center;
+			}
+		}
+	}
+}
+
+@media (max-width: rem(675)) {
+	.techStackSection {
+		display: flex;
+		flex-direction: column;
+	}
+}

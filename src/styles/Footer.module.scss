@@ -3,3 +3,9 @@
 .footer {
 	border-top: rem(2) solid $font-color-2;
 }
+
+@media (max-width: rem(530)) {
+	.footer {
+		padding-top: rem(30);
+	}
+}

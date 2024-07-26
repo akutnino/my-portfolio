@@ -11,3 +11,11 @@
 		color: $font-color-1;
 	}
 }
+
+@media (max-width: rem(985)) {
+	.main {
+		.container {
+			padding: 0;
+		}
+	}
+}
