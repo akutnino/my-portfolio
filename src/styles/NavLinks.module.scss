@@ -1,9 +1,11 @@
+@import 'App.module.scss';
+
 .linkList {
 	display: flex;
 	list-style: none;
 	width: min-content;
-	gap: 2rem;
-	margin-right: 3rem;
+	gap: rem(20);
+	margin-right: rem(30);
 
 	li {
 		align-self: center;

@@ -1,17 +1,14 @@
-@font-face {
-	font-family: mainFont;
-	src: url(../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
-}
+@import 'App.module.scss';
 
 .projectSection {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 4rem;
-	margin-bottom: 10rem;
+	gap: rem(40);
+	margin-bottom: rem(100);
 
 	.sectionName {
 		font-family: mainFont;
-		font-size: 8.8rem;
+		font-size: rem(88);
 	}
 
 	.resumeNav {

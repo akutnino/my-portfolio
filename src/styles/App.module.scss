@@ -1,0 +1,25 @@
+@use 'sass:math';
+
+@function rem($pixel) {
+	@if math.is-unitless($pixel) {
+		@return math.div($pixel, 16) + rem;
+	} @else {
+		@error 'Do not use units when using the rem() function; only numbers.';
+	}
+}
+
+$font-color-1: #fff;
+$font-color-2: #d9d9d9;
+$main-bg-color: #151515;
+$second-bg-color: #242424;
+$third-bg-color: #4ee1a0;
+
+@font-face {
+	font-family: mainFont;
+	src: url(../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: secondaryFont;
+	src: url(../assets/fonts/static/SpaceGrotesk-Medium.ttf);
+}

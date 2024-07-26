@@ -1,13 +1,12 @@
-$font-color-2: #d9d9d9;
-$third-bg-color: #4ee1a0;
+@import 'App.module.scss';
 
 .resume {
 	font-family: secondaryFont;
 	color: $font-color-2;
-	font-size: 2.4rem;
+	font-size: rem(24);
 	text-decoration: none;
-	padding-bottom: 0.3rem;
-	border-bottom: 4px solid $third-bg-color;
+	padding-bottom: rem(3);
+	border-bottom: rem(4) solid $third-bg-color;
 
 	&:hover {
 		color: $third-bg-color;

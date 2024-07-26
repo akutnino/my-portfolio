@@ -1,12 +1,12 @@
-$font-color-1: #fff;
+@import 'App.module.scss';
 
 .main {
 	max-width: 100%;
 
 	.container {
-		max-width: 111rem;
+		max-width: rem(1110);
 		margin: 0 auto;
-		padding: 0 0 0 3rem;
+		padding: 0 0 0 rem(30);
 
 		color: $font-color-1;
 	}

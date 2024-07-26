@@ -1,15 +1,8 @@
-$font-color-1: #fff;
-$font-color-2: #d9d9d9;
-$third-bg-color: #4ee1a0;
-
-@font-face {
-	font-family: secondaryFont;
-	src: url(../assets/fonts/static/SpaceGrotesk-Medium.ttf);
-}
+@import 'App.module.scss';
 
 .projectImage {
-	width: 54rem;
-	height: 40rem;
+	width: rem(540);
+	height: rem(400);
 }
 
 .projectDetails {
@@ -18,9 +11,9 @@ $third-bg-color: #4ee1a0;
 
 	h1 {
 		font-family: secondaryFont;
-		font-size: 4.6rem;
+		font-size: rem(46);
 		span {
-			border-bottom: 5px solid $third-bg-color;
+			border-bottom: rem(5) solid $third-bg-color;
 		}
 	}
 
@@ -28,20 +21,20 @@ $third-bg-color: #4ee1a0;
 		display: flex;
 		list-style: none;
 		flex-wrap: wrap;
-		gap: 2rem;
-		margin-top: 2rem;
+		gap: rem(20);
+		margin-top: rem(20);
 
 		li {
 			font-family: secondaryFont;
-			font-size: 2.4rem;
+			font-size: rem(24);
 			color: $font-color-2;
 		}
 	}
 
 	p {
 		font-family: secondaryFont;
-		font-size: 2rem;
-		margin: 6rem 0;
+		font-size: rem(20);
+		margin: rem(60) 0;
 		color: $font-color-2;
 	}
 
@@ -52,13 +45,13 @@ $third-bg-color: #4ee1a0;
 
 		a {
 			font-family: secondaryFont;
-			font-size: 2.4rem;
+			font-size: rem(24);
 			color: $third-bg-color;
 			align-self: end;
 			text-decoration: none;
 
 			&:hover {
-				border-bottom: 3px solid $font-color-1;
+				border-bottom: rem(3) solid $font-color-1;
 			}
 		}
 	}
