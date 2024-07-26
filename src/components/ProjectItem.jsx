@@ -3,13 +3,15 @@ import styles from '../styles/ProjectItem.module.scss';
 
 ProjectItem.propTypes = {
 	projectName: PropTypes.string,
+	projectURL: PropTypes.string,
 	projectImagePath: PropTypes.string,
 	projectTools: PropTypes.node,
 	projectDescription: PropTypes.string
 };
 
 export default function ProjectItem(props) {
-	const { projectName, projectImagePath, projectTools, projectDescription } = props;
+	const { projectName, projectURL, projectImagePath, projectTools, projectDescription } =
+		props;
 
 	return (
 		<>
@@ -43,7 +45,7 @@ export default function ProjectItem(props) {
 					</a>
 
 					<a
-						href='http://'
+						href={projectURL}
 						target='_blank'
 						rel='noopener noreferrer'
 					>
