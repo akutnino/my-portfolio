@@ -1,0 +1,15 @@
+@import 'App.module.scss';
+
+.navBar {
+	grid-area: navbar;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	height: rem(80);
+
+	.handle {
+		font-family: mainFont;
+		align-self: center;
+		font-size: rem(24);
+	}
+}

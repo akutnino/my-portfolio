@@ -1,15 +1,12 @@
 import styles from '../styles/Header.module.scss';
+import NavBar from './NavBar';
 
-import NavLinks from './NavLinks';
 import ResumeLink from './ResumeLink';
 
 export default function Header() {
 	return (
 		<header className={styles.header}>
-			<nav>
-				<h1>@akutnino</h1>
-				<NavLinks />
-			</nav>
+			<NavBar />
 			<h1>
 				Nice to meet you! I&apos;m <span>Niño Akut</span>.
 			</h1>

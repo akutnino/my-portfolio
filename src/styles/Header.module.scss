@@ -9,20 +9,6 @@
 		'resume image';
 	margin-bottom: rem(80);
 
-	nav {
-		grid-area: navbar;
-		display: flex;
-		justify-content: space-between;
-		align-self: center;
-		height: rem(80);
-
-		h1 {
-			font-family: mainFont;
-			align-self: center;
-			font-size: rem(24);
-		}
-	}
-
 	h1 {
 		grid-area: mainContent;
 		font-family: mainFont;
