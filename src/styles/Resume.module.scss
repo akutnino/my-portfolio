@@ -1,0 +1,28 @@
+@import 'App.module.scss';
+
+.mainResumeDiv {
+	display: grid;
+	grid-template-areas:
+		'backBtn'
+		'resume';
+	justify-content: center;
+
+	.backBtn {
+		margin: rem(30) 0;
+		justify-self: center;
+		grid-area: backBtn;
+		border-style: none;
+		width: rem(200);
+		border-radius: rem(50);
+		padding: rem(10);
+		background-color: $font-color-2;
+		font-family: secondaryFont;
+	}
+
+	.resumeImage {
+		grid-area: resume;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}

@@ -31,7 +31,7 @@ export default function NavLinks() {
 
 			<li>
 				<a
-					href='https://ph.linkedin.com/in/nino-akut'
+					href='https://ph.linkedin.com/in/akutnino'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
