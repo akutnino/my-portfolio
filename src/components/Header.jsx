@@ -1,5 +1,6 @@
 import styles from '../styles/Header.module.scss';
 import NavBar from './NavBar';
+import myphoto from '/src/assets/images/IMG_20240723_013808.png';
 
 import ResumeLink from './ResumeLink';
 
@@ -15,7 +16,7 @@ export default function Header() {
 				about building web applications that users love.
 			</p>
 			<img
-				src='/src/assets/images/IMG_20240723_013808.png'
+				src={myphoto}
 				alt='my-photo'
 			/>
 			<ResumeLink className={styles.resumeNav} />

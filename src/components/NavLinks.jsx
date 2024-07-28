@@ -1,4 +1,8 @@
 import styles from '../styles/NavLinks.module.scss';
+import githubIcon from '/src/assets/images/icon-github.svg';
+import frontendMentorIcon from '/src/assets/images/icon-frontend-mentor.svg';
+import linkedinIcon from '/src/assets/images/icon-linkedin.svg';
+import twitterIcon from '/src/assets/images/icon-twitter.svg';
 
 export default function NavLinks() {
 	return (
@@ -10,7 +14,7 @@ export default function NavLinks() {
 					rel='noopener noreferrer'
 				>
 					<img
-						src='/src/assets/images/icon-github.svg'
+						src={githubIcon}
 						alt='github'
 					/>
 				</a>
@@ -23,7 +27,7 @@ export default function NavLinks() {
 					rel='noopener noreferrer'
 				>
 					<img
-						src='/src/assets/images/icon-frontend-mentor.svg'
+						src={frontendMentorIcon}
 						alt='frontend-mentor'
 					/>
 				</a>
@@ -36,7 +40,7 @@ export default function NavLinks() {
 					rel='noopener noreferrer'
 				>
 					<img
-						src='/src/assets/images/icon-linkedin.svg'
+						src={linkedinIcon}
 						alt='linkedin'
 					/>
 				</a>
@@ -49,7 +53,7 @@ export default function NavLinks() {
 					rel='noopener noreferrer'
 				>
 					<img
-						src='/src/assets/images/icon-twitter.svg'
+						src={twitterIcon}
 						alt='twitter'
 					/>
 				</a>

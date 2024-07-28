@@ -1,6 +1,9 @@
 import styles from '../styles/Projects.module.scss';
 import ProjectItem from './ProjectItem';
 import ResumeLink from './ResumeLink';
+import projectOneImage from '/src/assets/images/thumbnail-project-4-small.webp';
+import projectTwoImage from '/src/assets/images/thumbnail-project-3-small.webp';
+import projectThreeImage from '/src/assets/images/thumbnail-project-6-small.webp';
 
 export default function Project() {
 	return (
@@ -11,7 +14,7 @@ export default function Project() {
 			<ProjectItem
 				projectName={'usePopcorn Movies'}
 				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/07-usepopcorn/starter/usepopcorn`}
-				projectImagePath={'/src/assets/images/thumbnail-project-4-small.webp'}
+				projectImagePath={projectOneImage}
 				projectDescription={`Create a list of movies that you've watched and give it a rating.`}
 				projectTools={<li>React</li>}
 			/>
@@ -19,7 +22,7 @@ export default function Project() {
 			<ProjectItem
 				projectName={'React Quizlet'}
 				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/10-react-quiz/starter/react-quiz`}
-				projectImagePath={'/src/assets/images/thumbnail-project-3-small.webp'}
+				projectImagePath={projectTwoImage}
 				projectDescription={`Review your React knowledge by taking this short react quiz.`}
 				projectTools={<li>React</li>}
 			/>
@@ -27,7 +30,7 @@ export default function Project() {
 			<ProjectItem
 				projectName={'WorldWise App'}
 				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/11-worldwise/starter/worldwise`}
-				projectImagePath={'/src/assets/images/thumbnail-project-6-small.webp'}
+				projectImagePath={projectThreeImage}
 				projectDescription={`Create a list of places that you've visited and create a note about your experience.`}
 				projectTools={
 					<>
