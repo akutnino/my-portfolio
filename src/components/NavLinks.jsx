@@ -1,8 +1,8 @@
-import styles from '../styles/NavLinks.module.scss';
 import githubIcon from '/src/assets/images/icon-github.svg';
 import frontendMentorIcon from '/src/assets/images/icon-frontend-mentor.svg';
 import linkedinIcon from '/src/assets/images/icon-linkedin.svg';
 import twitterIcon from '/src/assets/images/icon-twitter.svg';
+import styles from '../styles/NavLinks.module.scss';
 
 export default function NavLinks() {
 	return (

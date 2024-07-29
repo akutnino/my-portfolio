@@ -1,5 +1,5 @@
-import styles from '../styles/Footer.module.scss';
 import NavBar from './NavBar';
+import styles from '../styles/Footer.module.scss';
 
 export default function Footer() {
 	return (

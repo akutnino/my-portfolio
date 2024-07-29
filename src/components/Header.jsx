@@ -1,8 +1,7 @@
-import styles from '../styles/Header.module.scss';
+import ResumeLink from './ResumeLink';
 import NavBar from './NavBar';
 import myphoto from '/src/assets/images/IMG_20240723_013808.png';
-
-import ResumeLink from './ResumeLink';
+import styles from '../styles/Header.module.scss';
 
 export default function Header() {
 	return (

@@ -1,9 +1,9 @@
-import styles from '../styles/Projects.module.scss';
 import ProjectItem from './ProjectItem';
 import ResumeLink from './ResumeLink';
 import projectOneImage from '/src/assets/images/thumbnail-project-4-small.webp';
 import projectTwoImage from '/src/assets/images/thumbnail-project-3-small.webp';
 import projectThreeImage from '/src/assets/images/thumbnail-project-6-small.webp';
+import styles from '../styles/Projects.module.scss';
 
 export default function Project() {
 	return (
