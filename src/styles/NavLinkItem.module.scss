@@ -1,0 +1,13 @@
+@import 'App.module.scss';
+
+.NavLinkItemLI {
+	align-self: center;
+
+	a {
+		display: block;
+
+		img {
+			display: block;
+		}
+	}
+}

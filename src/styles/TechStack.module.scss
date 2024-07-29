@@ -7,37 +7,12 @@
 	padding-top: rem(80);
 	border-top: rem(2) solid $font-color-2;
 	margin-bottom: rem(100);
-
-	div {
-		h1 {
-			font-family: mainFont;
-			color: $font-color-1;
-			font-size: rem(50);
-		}
-		p {
-			font-family: secondaryFont;
-			color: $font-color-2;
-			font-size: rem(20);
-		}
-	}
 }
 
 @media (max-width: rem(1065)) {
 	.techStackSection {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-
-		div {
-			justify-self: center;
-
-			h1 {
-				text-align: center;
-			}
-
-			p {
-				text-align: center;
-			}
-		}
 	}
 }
 

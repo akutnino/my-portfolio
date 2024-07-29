@@ -3,61 +3,32 @@ import frontendMentorIcon from '/src/assets/images/icon-frontend-mentor.svg';
 import linkedinIcon from '/src/assets/images/icon-linkedin.svg';
 import twitterIcon from '/src/assets/images/icon-twitter.svg';
 import styles from '../styles/NavLinks.module.scss';
+import NavLinkItem from './NavLinkItem';
 
 export default function NavLinks() {
 	return (
 		<ul className={styles.linkList}>
-			<li>
-				<a
-					href='https://github.com/akutnino'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					<img
-						src={githubIcon}
-						alt='github'
-					/>
-				</a>
-			</li>
+			<NavLinkItem
+				navLinkItemURL={'https://github.com/akutnino'}
+				navLinkItemIcon={githubIcon}
+				navLinkItemName={'github'}
+			/>
+			<NavLinkItem
+				navLinkItemURL={'https://www.frontendmentor.io/profile/akutnino'}
+				navLinkItemIcon={frontendMentorIcon}
+				navLinkItemName={'frontend-mentor'}
+			/>
+			<NavLinkItem
+				navLinkItemURL={'https://ph.linkedin.com/in/akutnino'}
+				navLinkItemIcon={linkedinIcon}
+				navLinkItemName={'linkedin'}
+			/>
 
-			<li>
-				<a
-					href='https://www.frontendmentor.io/profile/akutnino'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					<img
-						src={frontendMentorIcon}
-						alt='frontend-mentor'
-					/>
-				</a>
-			</li>
-
-			<li>
-				<a
-					href='https://ph.linkedin.com/in/akutnino'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					<img
-						src={linkedinIcon}
-						alt='linkedin'
-					/>
-				</a>
-			</li>
-
-			<li>
-				<a
-					href='https://x.com/akutnino?lang=en'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					<img
-						src={twitterIcon}
-						alt='twitter'
-					/>
-				</a>
-			</li>
+			<NavLinkItem
+				navLinkItemURL={'https://x.com/akutnino?lang=en'}
+				navLinkItemIcon={twitterIcon}
+				navLinkItemName={'twitter'}
+			/>
 		</ul>
 	);
 }

@@ -4,14 +4,21 @@ import styles from '../styles/ProjectItem.module.scss';
 ProjectItem.propTypes = {
 	projectName: PropTypes.string,
 	projectURL: PropTypes.string,
+	projectDemoURL: PropTypes.string,
 	projectImagePath: PropTypes.string,
 	projectTools: PropTypes.node,
 	projectDescription: PropTypes.string
 };
 
 export default function ProjectItem(props) {
-	const { projectName, projectURL, projectImagePath, projectTools, projectDescription } =
-		props;
+	const {
+		projectName,
+		projectURL,
+		projectDemoURL,
+		projectImagePath,
+		projectTools,
+		projectDescription
+	} = props;
 
 	return (
 		<>
@@ -37,7 +44,7 @@ export default function ProjectItem(props) {
 
 				<div className={styles.linkDiv}>
 					<a
-						href='http://'
+						href={projectDemoURL}
 						target='_blank'
 						rel='noopener noreferrer'
 					>

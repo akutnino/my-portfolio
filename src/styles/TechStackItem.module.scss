@@ -1,0 +1,28 @@
+@import 'App.module.scss';
+
+.techStackItemDiv {
+	h1 {
+		font-family: mainFont;
+		color: $font-color-1;
+		font-size: rem(50);
+	}
+	p {
+		font-family: secondaryFont;
+		color: $font-color-2;
+		font-size: rem(20);
+	}
+}
+
+@media (max-width: rem(1065)) {
+	.techStackItemDiv {
+		justify-self: center;
+
+		h1 {
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+		}
+	}
+}
