@@ -1,5 +1,4 @@
 import styles from '../styles/Resume.module.scss';
-import resumeImage from '/src/assets/images/FINAL_RESUME.png';
 import { useNavigate } from 'react-router-dom';
 
 export default function Resume() {
@@ -19,7 +18,7 @@ export default function Resume() {
 				BACK
 			</button>
 			<img
-				src={resumeImage}
+				src='/src/assets/images/FINAL_RESUME.png'
 				alt='My-Resume'
 				className={styles.resumeImage}
 			/>
