@@ -14,7 +14,7 @@ export default function Project() {
 			<ProjectItem
 				projectName={'usePopcorn Movies'}
 				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/07-usepopcorn/starter/usepopcorn`}
-				projectDemoURL={'http://'}
+				projectDemoURL={'https://akutnino.github.io/usepopcorn-app/'}
 				projectImagePath={projectOneImage}
 				projectDescription={`Create a list of movies that you've watched and give it a rating.`}
 				projectTools={<li>React</li>}
@@ -23,7 +23,7 @@ export default function Project() {
 			<ProjectItem
 				projectName={'React Quizlet'}
 				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/10-react-quiz/starter/react-quiz`}
-				projectDemoURL={'http://'}
+				projectDemoURL={'https://akutnino.github.io/react-quiz-app/'}
 				projectImagePath={projectTwoImage}
 				projectDescription={`Review your React knowledge by taking this short react quiz.`}
 				projectTools={<li>React</li>}
