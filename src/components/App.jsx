@@ -4,7 +4,7 @@ import Resume from './Resume';
 
 export default function App() {
 	return (
-		<BrowserRouter basename='/my-portfolio-one/'>
+		<BrowserRouter basename='/my-portfolio/'>
 			<Routes>
 				<Route
 					path='/'
