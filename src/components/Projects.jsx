@@ -31,8 +31,8 @@ export default function Project() {
 
 			<ProjectItem
 				projectName={'WorldWise App'}
-				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/11-worldwise/starter/worldwise`}
-				projectDemoURL={'http://'}
+				projectURL={`https://github.com/akutnino/react.js-main/tree/main/11-worldwise/starter/worldwise`}
+				projectDemoURL={'https://akutnino.github.io/worldwise-app/'}
 				projectImagePath={projectThreeImage}
 				projectDescription={`Create a list of places that you've visited and create a note about your experience.`}
 				projectTools={
