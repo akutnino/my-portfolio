@@ -22,6 +22,7 @@
 
 	.imageContainer {
 		display: flex;
+		max-width: rem(1500);
 		flex-direction: column;
 		gap: rem(10);
 
@@ -53,7 +54,6 @@
 			height: auto;
 			padding: 0 rem(100);
 		}
-
 		.introCyberSec {
 			grid-area: certificate;
 			display: block;
