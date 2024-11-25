@@ -17,11 +17,11 @@ export default function TechStack() {
 				yearsOfExperience={2}
 			/>
 			<TechStackItem
-				technologyName={'React'}
+				technologyName={'TypeScript'}
 				yearsOfExperience={1}
 			/>
 			<TechStackItem
-				technologyName={'React Router'}
+				technologyName={'React'}
 				yearsOfExperience={1}
 			/>
 			<TechStackItem

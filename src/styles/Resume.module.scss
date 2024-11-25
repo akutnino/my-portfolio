@@ -39,6 +39,28 @@
 			height: auto;
 			padding: 0 rem(100);
 		}
+		.switchRoutWireless {
+			grid-area: certificate;
+			display: block;
+			max-width: 100%;
+			height: auto;
+			padding: 0 rem(100);
+		}
+		.introNetworking {
+			grid-area: certificate;
+			display: block;
+			max-width: 100%;
+			height: auto;
+			padding: 0 rem(100);
+		}
+
+		.introCyberSec {
+			grid-area: certificate;
+			display: block;
+			max-width: 100%;
+			height: auto;
+			padding: 0 rem(100);
+		}
 	}
 }
 
@@ -49,6 +71,15 @@
 				padding: 0 0;
 			}
 			.ojtCertificate {
+				padding: 0 0;
+			}
+			.switchRoutWireless {
+				padding: 0 0;
+			}
+			.introNetworking {
+				padding: 0 0;
+			}
+			.introCyberSec {
 				padding: 0 0;
 			}
 		}
