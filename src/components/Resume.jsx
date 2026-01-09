@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import resumeImage from '/src/assets/images/FINAL_RESUME.png';
+import resumeImage from '/src/assets/images/MY_RESUME_2026.png';
 import ojtcertificate from '/src/assets/images/OJT_Certificate.png';
 import introCyberSec from '/src/assets/images/Intro-to-CyberSec-certificate.jpg';
 import introNetworking from '/src/assets/images/ccnav7-intro-to-networks-certificate.jpg';
