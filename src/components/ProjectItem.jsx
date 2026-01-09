@@ -7,7 +7,7 @@ ProjectItem.propTypes = {
 	projectDemoURL: PropTypes.string,
 	projectImagePath: PropTypes.string,
 	projectTools: PropTypes.node,
-	projectDescription: PropTypes.string
+	projectDescription: PropTypes.string,
 };
 
 export default function ProjectItem(props) {
@@ -17,7 +17,7 @@ export default function ProjectItem(props) {
 		projectDemoURL,
 		projectImagePath,
 		projectTools,
-		projectDescription
+		projectDescription,
 	} = props;
 
 	return (
@@ -34,9 +34,8 @@ export default function ProjectItem(props) {
 				</h1>
 
 				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
+					<li>TypeScript</li>
+					<li>Vite</li>
 					{projectTools}
 				</ul>
 
