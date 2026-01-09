@@ -13,25 +13,35 @@ export default function Project() {
 
 			<ProjectItem
 				projectName={'usePopcorn Movies'}
-				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/07-usepopcorn/starter/usepopcorn`}
+				projectURL={`https://github.com/akutnino/react.js-main/tree/main/07-usepopcorn/usepopcorn`}
 				projectDemoURL={'https://akutnino.github.io/usepopcorn-app/'}
 				projectImagePath={projectOneImage}
 				projectDescription={`Create a list of movies that you've watched and give it a rating.`}
-				projectTools={<li>React</li>}
+				projectTools={
+					<>
+						<li>Vitest</li>
+						<li>React</li>
+					</>
+				}
 			/>
 
 			<ProjectItem
 				projectName={'React Quizlet'}
-				projectURL={`https://github.com/akutnino/react.js-main-secondary/tree/main/10-react-quiz/starter/react-quiz`}
+				projectURL={`https://github.com/akutnino/react.js-main/tree/main/10-react-quiz/react-quiz`}
 				projectDemoURL={'https://akutnino.github.io/react-quiz-app/'}
 				projectImagePath={projectTwoImage}
 				projectDescription={`Review your React knowledge by taking this short react quiz.`}
-				projectTools={<li>React</li>}
+				projectTools={
+					<>
+						<li>Vitest</li>
+						<li>React</li>
+					</>
+				}
 			/>
 
 			<ProjectItem
 				projectName={'WorldWise App'}
-				projectURL={`https://github.com/akutnino/react.js-main/tree/main/11-worldwise/starter/worldwise`}
+				projectURL={`https://github.com/akutnino/react.js-main/tree/main/11-worldwise/worldwise`}
 				projectDemoURL={'https://akutnino.github.io/worldwise-app/'}
 				projectImagePath={projectThreeImage}
 				projectDescription={`Create a list of places that you've visited and create a note about your experience.`}
