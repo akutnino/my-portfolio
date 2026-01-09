@@ -14,19 +14,19 @@ export default function TechStack() {
 			/>
 			<TechStackItem
 				technologyName={'JavaScript'}
-				yearsOfExperience={2}
+				yearsOfExperience={3}
 			/>
 			<TechStackItem
 				technologyName={'TypeScript'}
-				yearsOfExperience={1}
+				yearsOfExperience={2}
 			/>
 			<TechStackItem
 				technologyName={'React'}
-				yearsOfExperience={1}
+				yearsOfExperience={2}
 			/>
 			<TechStackItem
 				technologyName={'Sass'}
-				yearsOfExperience={1}
+				yearsOfExperience={2}
 			/>
 		</section>
 	);
