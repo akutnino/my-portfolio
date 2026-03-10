@@ -1,14 +1,12 @@
-import PropTypes from 'prop-types';
 import styles from '../styles/TechStackItem.module.scss';
 
-TechStackItem.propTypes = {
-	technologyName: PropTypes.string,
-	yearsOfExperience: PropTypes.number
-};
-
-export default function TechStackItem(props) {
-	const { technologyName, yearsOfExperience } = props;
-
+export default function TechStackItem({
+	technologyName,
+	yearsOfExperience,
+}: {
+	technologyName: string;
+	yearsOfExperience: number;
+}) {
 	return (
 		<div className={styles.techStackItemDiv}>
 			<h1>{technologyName}</h1>

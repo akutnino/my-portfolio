@@ -1,6 +1,8 @@
-import ResumeLink from './ResumeLink';
-import NavBar from './NavBar';
+import NavBar from './NavBar.tsx';
+import ResumeLink from './ResumeLink.tsx';
+
 import myphoto from '/src/assets/images/IMG_20240723_013808.png';
+
 import styles from '../styles/Header.module.scss';
 
 export default function Header() {

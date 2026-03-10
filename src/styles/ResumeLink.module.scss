@@ -1,14 +1,14 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .resume {
 	font-family: secondaryFont;
-	color: $font-color-2;
-	font-size: rem(24);
+	color: var(--font-color-2);
+	font-size: function.rem(24);
 	text-decoration: none;
-	padding-bottom: rem(3);
-	border-bottom: rem(4) solid $third-bg-color;
+	padding-bottom: function.rem(3);
+	border-bottom: function.rem(4) solid var(--third-bg-color);
 
 	&:hover {
-		color: $third-bg-color;
+		color: var(--third-bg-color);
 	}
 }

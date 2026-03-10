@@ -1,22 +1,22 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .techStackSection {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: rem(40);
-	padding-top: rem(80);
-	border-top: rem(2) solid $font-color-2;
-	margin-bottom: rem(100);
+	gap: function.rem(40);
+	padding-top: function.rem(80);
+	border-top: function.rem(2) solid var(--font-color-2);
+	margin-bottom: function.rem(100);
 }
 
-@media (max-width: rem(1065)) {
+@media (max-width: function.rem(1065)) {
 	.techStackSection {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
-@media (max-width: rem(675)) {
+@media (max-width: function.rem(675)) {
 	.techStackSection {
 		display: flex;
 		flex-direction: column;

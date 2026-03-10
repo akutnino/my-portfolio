@@ -1,14 +1,14 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .projectSection {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: rem(40);
-	margin-bottom: rem(100);
+	gap: function.rem(40);
+	margin-bottom: function.rem(100);
 
 	.sectionName {
 		font-family: mainFont;
-		font-size: rem(88);
+		font-size: function.rem(88);
 	}
 
 	.resumeNav {
@@ -18,14 +18,14 @@
 	}
 }
 
-@media (max-width: rem(970)) {
+@media (max-width: function.rem(970)) {
 	.projectSection {
 		display: flex;
 		flex-direction: column;
 
 		.sectionName {
 			align-self: center;
-			font-size: rem(70);
+			font-size: function.rem(70);
 		}
 
 		.resumeNav {

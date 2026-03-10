@@ -1,9 +1,11 @@
+import NavLinkItem from './NavLinkItem.tsx';
+
 import githubIcon from '/src/assets/images/icon-github.svg';
 import frontendMentorIcon from '/src/assets/images/icon-frontend-mentor.svg';
 import linkedinIcon from '/src/assets/images/icon-linkedin.svg';
 import twitterIcon from '/src/assets/images/icon-twitter.svg';
+
 import styles from '../styles/NavLinks.module.scss';
-import NavLinkItem from './NavLinkItem';
 
 export default function NavLinks() {
 	return (

@@ -1,36 +1,36 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .navBar {
 	grid-area: navbar;
 	display: flex;
 	justify-content: space-between;
 	align-self: center;
-	height: rem(80);
+	height: function.rem(80);
 
 	.handle {
 		font-family: mainFont;
 		align-self: center;
-		font-size: rem(24);
+		font-size: function.rem(24);
 	}
 }
 
-@media (max-width: rem(985)) {
+@media (max-width: function.rem(985)) {
 	.navBar {
 		.handle {
-			margin-left: rem(30);
+			margin-left: function.rem(30);
 		}
 	}
 }
 
-@media (max-width: rem(530)) {
+@media (max-width: function.rem(530)) {
 	.navBar {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-bottom: rem(30);
+		margin-bottom: function.rem(30);
 
 		.handle {
-			margin-left: rem(0);
+			margin-left: function.rem(0);
 		}
 	}
 }

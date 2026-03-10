@@ -1,16 +1,18 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, type NavigateFunction } from 'react-router';
+
 import resumeImage from '/src/assets/images/MY_RESUME_2026.png';
 import ojtcertificate from '/src/assets/images/OJT_Certificate.png';
 import introCyberSec from '/src/assets/images/Intro-to-CyberSec-certificate.jpg';
 import introNetworking from '/src/assets/images/ccnav7-intro-to-networks-certificate.jpg';
 import switchRoutWireless from '/src/assets/images/ccnav7-switching-routing-wireless-certificate.jpg';
+
 import styles from '../styles/Resume.module.scss';
 
 export default function Resume() {
-	const navigate = useNavigate(-1);
+	const navigate: NavigateFunction = useNavigate();
 
 	const handleClick = () => {
-		navigate(-1);
+		navigate('/', { replace: true });
 	};
 
 	return (

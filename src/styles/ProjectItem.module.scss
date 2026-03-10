@@ -1,8 +1,8 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .projectImage {
-	width: rem(540);
-	height: rem(400);
+	width: function.rem(540);
+	height: function.rem(400);
 }
 
 .projectDetails {
@@ -11,9 +11,9 @@
 
 	h1 {
 		font-family: secondaryFont;
-		font-size: rem(46);
+		font-size: function.rem(46);
 		span {
-			border-bottom: rem(5) solid $third-bg-color;
+			border-bottom: function.rem(5) solid var(--third-bg-color);
 		}
 	}
 
@@ -21,21 +21,21 @@
 		display: flex;
 		list-style: none;
 		flex-wrap: wrap;
-		gap: rem(20);
-		margin-top: rem(20);
+		gap: function.rem(20);
+		margin-top: function.rem(20);
 
 		li {
 			font-family: secondaryFont;
-			font-size: rem(24);
-			color: $font-color-2;
+			font-size: function.rem(24);
+			color: var(--font-color-2);
 		}
 	}
 
 	p {
 		font-family: secondaryFont;
-		font-size: rem(20);
-		margin: rem(60) 0;
-		color: $font-color-2;
+		font-size: function.rem(20);
+		margin: function.rem(60) 0;
+		color: var(--font-color-2);
 	}
 
 	.linkDiv {
@@ -45,19 +45,19 @@
 
 		a {
 			font-family: secondaryFont;
-			font-size: rem(24);
-			color: $third-bg-color;
+			font-size: function.rem(24);
+			color: var(--third-bg-color);
 			align-self: end;
 			text-decoration: none;
 
 			&:hover {
-				border-bottom: rem(3) solid $font-color-1;
+				border-bottom: function.rem(3) solid var(--font-color-1);
 			}
 		}
 	}
 }
 
-@media (max-width: rem(1050)) {
+@media (max-width: function.rem(1050)) {
 	.projectDetails {
 		h1 {
 			text-align: center;
@@ -65,7 +65,7 @@
 
 		p {
 			text-align: center;
-			margin: rem(30) 0;
+			margin: function.rem(30) 0;
 		}
 
 		ul {
@@ -83,12 +83,12 @@
 		}
 
 		.linkDiv a:nth-child(1) {
-			margin-bottom: rem(30);
+			margin-bottom: function.rem(30);
 		}
 	}
 }
 
-@media (max-width: rem(970)) {
+@media (max-width: function.rem(970)) {
 	.projectImage {
 		align-self: center;
 	}
@@ -97,7 +97,7 @@
 	}
 }
 
-@media (max-width: rem(540)) {
+@media (max-width: function.rem(540)) {
 	.projectImage {
 		max-width: 100%;
 		height: auto;

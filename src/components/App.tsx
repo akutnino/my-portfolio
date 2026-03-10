@@ -1,6 +1,7 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Homepage from './Homepage';
-import Resume from './Resume';
+import { BrowserRouter, Route, Routes } from 'react-router';
+
+import Homepage from './Homepage.tsx';
+import Resume from './Resume.tsx';
 
 export default function App() {
 	return (

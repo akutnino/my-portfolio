@@ -1,4 +1,4 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .mainResumeDiv {
 	display: grid;
@@ -9,62 +9,62 @@
 	justify-content: center;
 
 	.backBtn {
-		margin: rem(30) 0;
+		margin: function.rem(30) 0;
 		justify-self: center;
 		grid-area: backBtn;
 		border-style: none;
-		width: rem(200);
-		border-radius: rem(50);
-		padding: rem(10);
-		background-color: $font-color-2;
+		width: function.rem(200);
+		border-radius: function.rem(50);
+		padding: function.rem(10);
+		background-color: var(--font-color-2);
 		font-family: secondaryFont;
 	}
 
 	.imageContainer {
 		display: flex;
-		max-width: rem(1500);
+		max-width: function.rem(1500);
 		flex-direction: column;
-		gap: rem(10);
+		gap: function.rem(10);
 
 		.resumeImage {
 			grid-area: resume;
 			display: block;
 			max-width: 100%;
 			height: auto;
-			padding: 0 rem(100);
+			padding: 0 function.rem(100);
 		}
 		.ojtCertificate {
 			grid-area: certificate;
 			display: block;
 			max-width: 100%;
 			height: auto;
-			padding: 0 rem(100);
+			padding: 0 function.rem(100);
 		}
 		.switchRoutWireless {
 			grid-area: certificate;
 			display: block;
 			max-width: 100%;
 			height: auto;
-			padding: 0 rem(100);
+			padding: 0 function.rem(100);
 		}
 		.introNetworking {
 			grid-area: certificate;
 			display: block;
 			max-width: 100%;
 			height: auto;
-			padding: 0 rem(100);
+			padding: 0 function.rem(100);
 		}
 		.introCyberSec {
 			grid-area: certificate;
 			display: block;
 			max-width: 100%;
 			height: auto;
-			padding: 0 rem(100);
+			padding: 0 function.rem(100);
 		}
 	}
 }
 
-@media (max-width: rem(950)) {
+@media (max-width: function.rem(950)) {
 	.mainResumeDiv {
 		.imageContainer {
 			.resumeImage {

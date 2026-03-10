@@ -1,7 +1,8 @@
-import Footer from './Footer';
-import Header from './Header';
-import Project from './Projects';
-import TechStack from './TechStack';
+import Header from './Header.tsx';
+import Footer from './Footer.tsx';
+import TechStack from './TechStack.tsx';
+import Project from './Projects.tsx';
+
 import styles from './../styles/Homepage.module.scss';
 
 export default function Homepage() {

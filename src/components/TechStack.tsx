@@ -1,5 +1,6 @@
+import TechStackItem from './TechStackItems.tsx';
+
 import styles from '../styles/TechStack.module.scss';
-import TechStackItem from './TechStackItems';
 
 export default function TechStack() {
 	return (

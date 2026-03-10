@@ -1,18 +1,18 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .main {
 	max-width: 100%;
 
 	.container {
-		max-width: rem(1110);
+		max-width: function.rem(1110);
 		margin: 0 auto;
-		padding: 0 0 0 rem(30);
+		padding: 0 0 0 function.rem(30);
 
-		color: $font-color-1;
+		color: var(--font-color-1);
 	}
 }
 
-@media (max-width: rem(985)) {
+@media (max-width: function.rem(985)) {
 	.main {
 		.container {
 			padding: 0;

@@ -1,4 +1,5 @@
-import NavBar from './NavBar';
+import NavBar from './NavBar.tsx';
+
 import styles from '../styles/Footer.module.scss';
 
 export default function Footer() {

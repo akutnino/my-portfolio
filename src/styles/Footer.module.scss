@@ -1,11 +1,11 @@
-@import 'App.module.scss';
+@use 'App.module.scss' as function;
 
 .footer {
-	border-top: rem(2) solid $font-color-2;
+	border-top: function.rem(2) solid var(--font-color-2);
 }
 
-@media (max-width: rem(530)) {
+@media (max-width: function.rem(530)) {
 	.footer {
-		padding-top: rem(30);
+		padding-top: function.rem(30);
 	}
 }

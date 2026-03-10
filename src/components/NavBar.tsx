@@ -1,4 +1,5 @@
-import NavLinks from './NavLinks';
+import NavLinks from './NavLinks.tsx';
+
 import styles from '../styles/NavBar.module.scss';
 
 export default function NavBar() {

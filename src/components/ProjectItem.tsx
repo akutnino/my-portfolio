@@ -1,25 +1,22 @@
-import PropTypes from 'prop-types';
+import type { ReactNode } from 'react';
+
 import styles from '../styles/ProjectItem.module.scss';
 
-ProjectItem.propTypes = {
-	projectName: PropTypes.string,
-	projectURL: PropTypes.string,
-	projectDemoURL: PropTypes.string,
-	projectImagePath: PropTypes.string,
-	projectTools: PropTypes.node,
-	projectDescription: PropTypes.string,
-};
-
-export default function ProjectItem(props) {
-	const {
-		projectName,
-		projectURL,
-		projectDemoURL,
-		projectImagePath,
-		projectTools,
-		projectDescription,
-	} = props;
-
+export default function ProjectItem({
+	projectName,
+	projectURL,
+	projectDemoURL,
+	projectImagePath,
+	projectTools,
+	projectDescription,
+}: {
+	projectName: string;
+	projectURL: string;
+	projectDemoURL: string;
+	projectImagePath: string;
+	projectTools: ReactNode;
+	projectDescription: string;
+}) {
 	return (
 		<>
 			<img
