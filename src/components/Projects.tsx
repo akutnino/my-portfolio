@@ -1,9 +1,7 @@
 import ResumeLink from './ResumeLink.tsx';
 import ProjectItem from './ProjectItem.tsx';
 
-import projectOneImage from '/src/assets/images/thumbnail-project-4-small.webp';
-import projectTwoImage from '/src/assets/images/thumbnail-project-3-small.webp';
-import projectThreeImage from '/src/assets/images/thumbnail-project-6-small.webp';
+import projectOneImage from '/src/assets/images/myteam-multi-page-website.jpg';
 
 import styles from '../styles/Projects.module.scss';
 
@@ -14,42 +12,15 @@ export default function Project() {
 			<ResumeLink className={styles.resumeNav} />
 
 			<ProjectItem
-				projectName={'usePopcorn Movies'}
-				projectURL={`https://github.com/akutnino/react.js-main/tree/main/07-usepopcorn/usepopcorn`}
-				projectDemoURL={'https://akutnino.github.io/usepopcorn-app/'}
+				projectName={'myteam Landing Page'}
+				projectURL={'https://github.com/akutnino/myteam-multi-page-website'}
+				projectDemoURL={'https://akutnino.github.io/myteam-multi-page-website/'}
 				projectImagePath={projectOneImage}
-				projectDescription={`Create a list of movies that you've watched and give it a rating.`}
-				projectTools={
-					<>
-						<li>Vitest</li>
-						<li>React</li>
-					</>
+				projectDescription={
+					'A landing page for finding the right developers to build high performing apps.'
 				}
-			/>
-
-			<ProjectItem
-				projectName={'React Quizlet'}
-				projectURL={`https://github.com/akutnino/react.js-main/tree/main/10-react-quiz/react-quiz`}
-				projectDemoURL={'https://akutnino.github.io/react-quiz-app/'}
-				projectImagePath={projectTwoImage}
-				projectDescription={`Review your React knowledge by taking this short react quiz.`}
 				projectTools={
 					<>
-						<li>Vitest</li>
-						<li>React</li>
-					</>
-				}
-			/>
-
-			<ProjectItem
-				projectName={'WorldWise App'}
-				projectURL={`https://github.com/akutnino/react.js-main/tree/main/11-worldwise/worldwise`}
-				projectDemoURL={'https://akutnino.github.io/worldwise-app/'}
-				projectImagePath={projectThreeImage}
-				projectDescription={`Create a list of places that you've visited and create a note about your experience.`}
-				projectTools={
-					<>
-						<li>Sass</li>
 						<li>React</li>
 						<li>React Router</li>
 					</>
