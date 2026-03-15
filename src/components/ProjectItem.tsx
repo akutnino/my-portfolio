@@ -39,13 +39,17 @@ export default function ProjectItem({
 				<p>{projectDescription}</p>
 
 				<div className={styles.linkDiv}>
-					<a
-						href={projectDemoURL}
-						target='_blank'
-						rel='noopener noreferrer'
-					>
-						View Project Demo
-					</a>
+					{projectDemoURL === '' && <a>Project In Development</a>}
+
+					{projectDemoURL !== '' && (
+						<a
+							href={projectDemoURL}
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							View Project Demo
+						</a>
+					)}
 
 					<a
 						href={projectURL}
