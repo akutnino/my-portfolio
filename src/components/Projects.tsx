@@ -31,7 +31,7 @@ export default function Project() {
 			<ProjectItem
 				projectName={'scoot Landing Page'}
 				projectURL={'https://github.com/akutnino/scoot-multi-page-website'}
-				projectDemoURL={''}
+				projectDemoURL={'https://akutnino.github.io/scoot-multi-page-website/'}
 				projectImagePath={projectTwoImage}
 				projectDescription={
 					'A landing page for finding conveniently parked scooters to move around the city with ease.'
